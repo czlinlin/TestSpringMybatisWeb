@@ -17,4 +17,9 @@ public class UserController {
 		return "user/register";
 	}
 
+	@RequestMapping("register")
+	public String changePassword() {
+		return "user/login";
+	}
+
 }
