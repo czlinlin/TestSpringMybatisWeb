@@ -14,5 +14,10 @@
 	<p>
 		<a href="https://www.baidu.com/">百度</a>
 	</p>
+	
+	<p>
+		<a href="user/changePassword">修改密码</a>
+	</p>
+	
 </body>
 </html>
