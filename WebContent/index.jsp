@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+	test ddd
 	这里是欢迎页
 	<p>
 		<a href="user/register">挑战到登录页面</a>
