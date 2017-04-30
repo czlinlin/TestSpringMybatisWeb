@@ -7,18 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	test ddd
 	这里是欢迎页
 	<p>
-		<a href="user/register">挑战到登录页面</a>
+		<a href="user/login">挑战到登录页面</a>
 	</p>
-	<p>
-		<a href="https://www.baidu.com/">百度</a>
-	</p>
-	
 	<p>
 		<a href="user/changePassword">修改密码</a>
 	</p>
-	
 </body>
 </html>
