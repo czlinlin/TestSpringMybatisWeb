@@ -14,5 +14,9 @@
 	<p>
 		<a href="user/changePassword">修改密码</a>
 	</p>
+	
+	<p>
+	<a href="user/register">注册</a>
+	</p>
 </body>
 </html>
