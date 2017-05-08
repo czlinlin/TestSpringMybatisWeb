@@ -2,15 +2,23 @@
 <!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" 
 "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
 <generatorConfiguration>
-	<classPathEntry location="D:/Workspaces/ForJee/TestMybatisGenerator/test/com/test/mysql-connector-java-5.1.39.jar" />
+	<classPathEntry
+		location="F:\eclipse\workspace\TestSpringMybatisWeb\WebContent\WEB-INF\lib\mysql-connector-java-5.1.39.jar" />
 	<context id="context1">
-		<jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/mybatis" userId="root" password="root" />
-		<!-- 数据表对应的model 层  -->
-		<javaModelGenerator targetProject="src" targetPackage="com.my.test.springmvc.dao.model"  />
-		<sqlMapGenerator targetPackage="com.my.test.springmvc.dao.mapperxml" targetProject="src" />
-		<javaClientGenerator targetPackage="com.my.test.springmvc.dao.mapper" type="XMLMAPPER" targetProject="src" />
-		
-		<table tableName="user" schema="mybatis" domainObjectName="User" />
-		<table tableName="product" schema="mybatis" domainObjectName="Product" />
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
+			connectionURL="jdbc:mysql://localhost:3306/sale_oa" userId="root"
+			password="root" />
+		<!-- 数据表对应的model 层 -->
+		<javaModelGenerator targetProject="src"
+			targetPackage="com.my.test.springmvc.dao.model" />
+		<sqlMapGenerator targetPackage="com.my.test.springmvc.dao.mapperxml"
+			targetProject="src" />
+		<javaClientGenerator targetPackage="com.my.test.springmvc.dao.mapper"
+			type="XMLMAPPER" targetProject="src" />
+
+		<table tableName="user" schema="sale_oa" domainObjectName="User" />
+		<table tableName="product" schema="sale_oa" domainObjectName="Product" />
+		<table tableName="sales" schema="sale_oa" domainObjectName="Sales" />
+		<table tableName="Wallet" schema="sale_oa" domainObjectName="Wallet" />
 	</context>
 </generatorConfiguration>
